@@ -1,0 +1,43 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #444;
+    text-decoration: none;
+}
+.wrap{
+    width: 100%;
+}
+header{
+    background: url(../images/pc_section01_3.jpg) no-repeat;
+    width: 100%;
+    height: 896px;
+}
+.header-inner{
+    width: 100%;
+    height: 120px;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    padding: 0 30px;
+    font-size: 18px;
+}
+.big-logo{
+    /* background: url(../images/m_sec01_logo_3.png) no-repeat; */
+    background-size: cover;
+    width: 1328px;
+    height: 422px;
+    margin: 50px auto;
+}
