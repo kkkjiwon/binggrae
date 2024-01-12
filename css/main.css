@@ -1,4 +1,13 @@
 @charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;400&display=swap");
+@font-face {
+  font-family: "Binggrae-Two";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +16,9 @@
 a {
   color: #444;
   text-decoration: none;
+}
+ul {
+  list-style: none;
 }
 .wrap {
   width: 100%;
@@ -44,35 +56,150 @@ header {
 .main {
   width: 100%;
 }
-.search {
+.search_bar {
   width: 1020px;
   height: 80px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search_bar input {
+  width: 85%;
+  border: 0;
+  outline: none;
+  font-size: 20px;
+}
+.search_bar button {
+  background-color: rgb(211, 21, 21);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  width: 200px;
+  height: 60px;
+  border: 0;
+  border-radius: 100px;
+}
+.fa-magnifying-glass {
+  width: 30px;
+  height: 30px;
+  margin: 7px 20px;
+}
+
+.taste {
+  width: 100%;
+}
+.taste h1 {
+  text-align: center;
+  font-family: "Binggrae-Two";
+  font-size: 40px;
+  margin: 20px auto;
+  color: #1f1f1f;
+  line-height: 1.45;
+  letter-spacing: -1.9px;
+}
+.taste-inner {
+  width: 80%;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
 }
-.search input {
+.taste-inner li {
+  margin: 10px 10px;
+  text-align: center;
+}
+.taste-inner img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.taste-inner p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  background-color: rgb(247, 247, 247);
+  border: 0;
+  border-radius: 20px;
+}
+.brandshop {
   width: 100%;
-  height: 100%;
-  border-radius: 50px;
-  border: 1px solid #f1f1f1;
-  box-shadow: 5px 5px rgb(241, 241, 241);
-  padding-left: 100px;
-  font-size: 17px;
-  background: url(../images/search_icon.png) no-repeat left center;
+  margin-top: 100px;
 }
-.search-inner {
+.brandshop h1 {
+  text-align: center;
+  font-family: "Binggrae-Two";
+  font-size: 40px;
+  margin: 20px auto;
+  color: #1f1f1f;
+  line-height: 1.45;
+  letter-spacing: -1.9px;
 }
-/* .ic-search{
-    width: 16px;
-    height: 16px;
-    
-} */
-.bt-search {
-  background-color: rgb(212, 25, 25);
-  color: #fff;
+.brandshop-inner {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  list-style: none;
+}
+.brandshop img {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #eeeeee;
+  border-radius: 20px;
+}
+.cs {
+  width: 100%;
+  margin-top: 100px;
+}
+.cs h1 {
+  text-align: center;
+  font-family: "Binggrae-Two";
+  font-size: 40px;
+  margin: 20px auto;
+  color: #1f1f1f;
+  line-height: 1.45;
+  letter-spacing: -1.9px;
+}
+.cs-inner {
+  background-color: antiquewhite;
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.cs-wrap {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+.cs-wrap p {
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 14px;
-  font-weight: bold;
-  width: 180px;
-  height: 55px;
-  border: 0px;
-  border-radius: 50px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.email {
+  width: 500px;
+  height: 250px;
+  background: url("../images/sec04_backimg01.png") no-repeat;
+  background-size: cover;
+  padding: 40px;
+}
+.email h2 {
+  font-family: "Binggrae-Two";
+  color: #1f1f1f;
+  font-size: 30px;
+  margin: 10px 0;
 }
