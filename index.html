@@ -4,11 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>빙그레</title>
-    <link rel="stylesheet" href="css/main.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <!-- 스와이퍼 적용 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- JS 적용 -->
+    <!-- Jquery 적용 -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <div class="wrap">
@@ -59,50 +70,51 @@
         <!-- 행복한 빙그레의 맛 -->
         <div class="taste">
           <h1>행복한 빙그레의 맛!</h1>
-          <ul class="taste-inner">
-            <li>
-              <img
-                src="images/6e5e4881-40ba-4150-ac86-6d61173da0ad.png"
-                alt="아이스크림"
-              />
-              <p>아이스크림</p>
-            </li>
-            <li>
-              <img
-                src="images/fbf974f7-e6c8-4df6-87a5-3154b5cd647c.png"
-                alt="우유/치즈"
-              />
-              <p>우유/치즈</p>
-            </li>
-            <li>
-              <img
-                src="images/1dea8cd4-bdb2-4ac0-a42c-8cd60968aa36.png"
-                alt="발효유"
-              />
-              <p>발효유</p>
-            </li>
-            <li>
-              <img
-                src="images/8bdfd152-49d3-4430-b64b-9ecb43e9cb09.png"
-                alt="커피"
-              />
-              <p>커피</p>
-            </li>
-            <li>
-              <img
-                src="images/99f5db34-3e58-4df7-b43a-e97714ca0287.png"
-                alt="주스"
-              />
-              <p>주스</p>
-            </li>
-            <li>
-              <img
-                src="images/481f6075-a2a3-4070-85b0-3000a5817a10.png"
-                alt="음료"
-              />
-              <p>음료</p>
-            </li>
-          </ul>
+          <!-- Swiper -->
+          <div class="swiper tasteSwiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <img src="images/1.png" alt="아이스크림" />
+                <p>아이스크림</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/2.png" alt="우유/치즈" />
+                <p>우유/치즈</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/3.png" alt="발효유" />
+                <p>발효유</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/4.png" alt="커피" />
+                <p>커피</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/5.png" alt="주스" />
+                <p>주스</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/6.png" alt="음료" />
+                <p>음료</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/7.png" alt="스낵/디저트" />
+                <p>스낵/디저트</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/8.png" alt="건강지향" />
+                <p>건강지향</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/9.png" alt="수출제품" />
+                <p>수출제품</p>
+              </li>
+            </ul>
+            <!-- <div class="controls">
+              <span class="prev"><i class="fas fa-chevron-left"></i></span>
+              <span class="next"><i class="fas fa-chevron-right"></i></span>
+            </div> -->
+          </div>
         </div>
         <!-- Brand Shop -->
         <div class="brandshop">
@@ -148,7 +160,7 @@
                 <ul class="qna-1">
                   <li>Q. 아이스크림에는 유통기한이 없나요?</li>
                   <li>
-                    Q. 아이스크림, 음료 등 제품 공급(납풉) 관련 문의드리고
+                    Q. 아이스크림, 음료 등 제품 공급(납품) 관련 문의드리고
                     싶어요.
                   </li>
                   <li>
@@ -157,7 +169,7 @@
                 </ul>
                 <ul class="qna-2">
                   <li>Q. 제품 유통기한 뒤에 있는 알파벳 기호는 무엇인가요?</li>
-                  <li>Q. 요플레 분리배풀(라벨제거) 방법 알려주세요</li>
+                  <li>Q. 요플레 분리배출(라벨제거) 방법 알려주세요</li>
                 </ul>
               </div>
             </div>
@@ -175,7 +187,7 @@
               <button>사이버 신고센터</button>
             </div>
             <div class="report-1">
-              <p>빙그레 종사자의 유해위험요소 및 안전보건에 관한 의견 제보</p>
+              <p>빙그레 종사자의 유해·위험요소 및 안전보건에 관한 의견 제보</p>
               <button>안전신문고</button>
             </div>
           </div>
