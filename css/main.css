@@ -27,7 +27,6 @@ header {
   background: url(../images/pc_section01_3.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
-  /* height: 896px; */
 }
 .header-inner {
   width: 100%;
@@ -51,9 +50,11 @@ header {
 }
 .big-logo {
   background-size: cover;
-  width: 1328px;
+  width: 80%;
   height: 422px;
   margin: 50px auto;
+  display: flex;
+  justify-content: center;
 }
 .main {
   width: 100%;
@@ -96,17 +97,9 @@ header {
 }
 
 .taste {
-  position: relative;
-  width: 1450px;
-  height: 400px;
-  margin-top: 100px;
-  margin: auto;
+  width: 100%;
+  margin-top: 200px;
 }
-/* .tasteSwiper {
-  width: 1300px;
-  height: 400px;
-} */
-
 .taste h1 {
   text-align: center;
   font-family: "Binggrae-Two";
@@ -116,28 +109,32 @@ header {
   line-height: 1.45;
   letter-spacing: -1.9px;
 }
-.tasteSwiper ul {
+.taste-box {
+  position: relative;
+  width: 1450px;
+  height: 300px;
+  margin-top: 100px;
+  margin: 0 auto;
+  /* background-color: yellowgreen; */
+}
+.tasteSwiper {
+  width: 1300px;
   /* width: 1200px; */
-  padding: 0 50px;
+  /* padding: 0 10px; */
   display: flex;
-  background-color: yellowgreen;
+
+  /* background-color: yellowgreen; */
   /* justify-content: start; */
 }
-.tasteSwiper ul li {
+.tasteSwiper .swiper-slide {
   /* margin: 10px; */
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  width: calc(100% / 6);
   /* max-width: 90%; */
 }
-.tasteSwiper ul img {
+.tasteSwiper .swiper-slide img {
   width: 200px;
-  height: 200px;
-  margin-bottom: 10px;
 }
-.tasteSwiper ul li p {
+.tasteSwiper .swiper-slide p {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 400;
   width: 200px;
@@ -146,29 +143,40 @@ header {
   background-color: rgb(247, 247, 247);
   border: 0;
   border-radius: 20px;
+  text-align: center;
+  margin-top: 10px;
 }
-.prev{
+.taste .prev {
   position: absolute;
-  top: 50%;
-  left:0px;
+  top: 35%;
+  left: 40px;
   width: 40px;
   height: 40px;
   z-index: 9999;
   font-size: 25px;
+  color: #555;
 }
-.next{
+.taste .next {
   position: absolute;
-  top: 50%;
-  right: -30px;
+  top: 35%;
+  right: 15px;
   width: 40px;
   height: 40px;
   z-index: 9999;
   font-size: 25px;
-
+  color: #555;
 }
 .brandshop {
   width: 100%;
   margin-top: 100px;
+}
+.brandshop-box {
+  position: relative;
+  width: 1450px;
+  height: 250px;
+  margin-top: 100px;
+  margin: 0 auto;
+  /* background-color: violet; */
 }
 .brandshop h1 {
   text-align: center;
@@ -179,19 +187,39 @@ header {
   line-height: 1.45;
   letter-spacing: -1.9px;
 }
-.brandshop-inner {
-  width: 80%;
+.brandSwiper {
+  width: 1300px;
   display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  list-style: none;
+  /* justify-content: center;
+  margin: 0 auto; */
 }
-.brandshop img {
-  margin: 10px;
+.brandSwiper .swiper-slide {
+  width: calc(100% / 6);
+}
+.brandSwiper .swiper-slide img {
   width: 200px;
-  height: 200px;
   border: 1px solid #eeeeee;
   border-radius: 20px;
+}
+.brandshop .prev {
+  position: absolute;
+  top: 35%;
+  left: 40px;
+  width: 40px;
+  height: 40px;
+  z-index: 9999;
+  font-size: 25px;
+  color: #555;
+}
+.brandshop .next {
+  position: absolute;
+  top: 35%;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  z-index: 9999;
+  font-size: 25px;
+  color: #555;
 }
 .cs {
   width: 100%;
