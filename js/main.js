@@ -10,27 +10,23 @@ $(document).ready(function () {
       nextEl: ".taste .next",
       prevEl: ".taste .prev",
     },
-    // breakpoints:{
-    //   //320 이상일때
-    //   320: {
-    //     slidesPerView: 1,
-    //   }
-    //   //480 이상일때
-    //   480: {
-    //     slidesPerView: 2,
-    //     spaceBetween: 5
-    //   }
-    //   //320 이상일때
-    //   768: {
-    //     slidesPerView: 4,
-    //     spaceBetween: 10
-    //   }
+    grid: {
+      rows: 2,
+      fill: "row",
+    },
+    breakpoints:{
+   
+      //320 이상일때
+      768: {
+        slidesPerView: 5,
+        spaceBetween: 10
+      },
 
-    //   1400:{
-    //     slidesPerView: 5,
-    //     spaceBetween: 10
-    //   }
-    // }
+      1400:{
+        slidesPerView: 6,
+        spaceBetween: 10
+      }
+    }
   });
 });
 $(document).ready(function () {
@@ -43,5 +39,26 @@ $(document).ready(function () {
       nextEl: ".brandshop .next",
       prevEl: ".brandshop .prev",
     },
+    breakpoints:{
+      //320 이상일때
+      320: {
+        slidesPerView: 1,
+      },
+      //480 이상일때
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 5
+      },
+      //320 이상일때
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 10
+      },
+
+      1400:{
+        slidesPerView: 5,
+        spaceBetween: 10
+      }
+    }
   });
 });
