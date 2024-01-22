@@ -110,23 +110,13 @@ h1 {
 }
 .taste {
   width: 100%;
-  max-height: 300px;
   margin-top: 200px;
 }
-/* .taste h1 {
-  text-align: center;
-  font-family: "Binggrae-Two";
-  font-size: 40px;
-  margin: 20px auto;
-  color: #1f1f1f;
-  line-height: 1.45;
-  letter-spacing: -1.9px;
-} */
 .taste-box {
   position: relative;
   width: 1450px;
   height: 300px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   margin: 0 auto;
   /* background-color: yellowgreen; */
 }
@@ -181,7 +171,7 @@ h1 {
 }
 .brandshop {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .brandshop-box {
   position: relative;
@@ -191,15 +181,6 @@ h1 {
   margin: 0 auto;
   /* background-color: violet; */
 }
-/* .brandshop h1 {
-  text-align: center;
-  font-family: "Binggrae-Two";
-  font-size: 40px;
-  margin: 20px auto;
-  color: #1f1f1f;
-  line-height: 1.45;
-  letter-spacing: -1.9px;
-} */
 .brandSwiper {
   width: 1300px;
   display: flex;
@@ -236,17 +217,8 @@ h1 {
 }
 .cs {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 150px;
 }
-/* .cs h1 {
-  text-align: center;
-  font-family: "Binggrae-Two";
-  font-size: 40px;
-  margin: 20px auto;
-  color: #1f1f1f;
-  line-height: 1.45;
-  letter-spacing: -1.9px;
-} */
 .cs-inner {
   /* background-color: antiquewhite; */
   width: 65%;
@@ -314,7 +286,7 @@ h1 {
 .call h3 {
   font-family: "Poppins", sans-serif;
   color: #303030;
-  font-size: 42px;
+  font-size: 35px;
   margin: 10px 0;
 }
 .call p {
@@ -384,7 +356,7 @@ h1 {
 }
 .report {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 180px;
 }
 /* .report h1 {
   text-align: center;

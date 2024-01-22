@@ -40,16 +40,12 @@
     width: 150px;
     height: 42px;
   }
-  h1 {
-    font-size: 30px;
-    font-weight: 300;
-  }
   .taste {
     width: 700px;
     margin-top: 100px;
     /* background-color: yellowgreen; */
   }
-  .tasteSwiper .swiper-slide img {
+  /* .tasteSwiper .swiper-slide img {
     width: 100px;
   }
   .tasteSwiper .swiper-slide {
@@ -61,7 +57,7 @@
   }
   .tasteSwiper {
     width: 700px;
-  }
+  } */
   .swiper-wrapper {
     /* width: 100%; */
     justify-content: center;

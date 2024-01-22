@@ -10,19 +10,19 @@ $(document).ready(function () {
       nextEl: ".taste .next",
       prevEl: ".taste .prev",
     },
-    grid: {
-      rows: 2,
-      fill: "row",
-    },
+    // grid: {
+    //   rows: 2,
+    //   fill: "row",
+    // },
     breakpoints: {
       768: {
         slidesPerView: 5,
         spaceBetween: 10,
       },
-      1400: {
-        slidesPerView: 6,
-        spaceBetween: 10,
-      },
+      // 1400: {
+      //   slidesPerView: 6,
+      //   spaceBetween: 10,
+      // },
     },
   });
 });
@@ -36,19 +36,19 @@ $(document).ready(function () {
       nextEl: ".brandshop .next",
       prevEl: ".brandshop .prev",
     },
-    grid: {
-      rows: 2,
-      fill: "row",
-    },
+    // grid: {
+    //   rows: 2,
+    //   fill: "row",
+    // },
     breakpoints: {
       768: {
-        slidesPerView: 5,
+        slidesPerView: 4,
         spaceBetween: 10,
       },
-      1400: {
-        slidesPerView: 6,
-        spaceBetween: 10,
-      },
+      // 1400: {
+      //   slidesPerView: 6,
+      //   spaceBetween: 10,
+      // },
     },
   });
 });
