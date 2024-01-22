@@ -1,8 +1,9 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800;900&family=Noto+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
 @font-face {
-  font-family: 'Binggrae';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff');
+  font-family: "Binggrae";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -27,7 +28,7 @@ header {
   background-size: cover;
   width: 100%;
 }
-h1{
+h1 {
   text-align: center;
   font-family: "Binggrae";
   font-size: 40px;
@@ -57,7 +58,7 @@ h1{
   font-weight: 500;
   font-family: "Noto Sans KR", sans-serif;
 }
-.menu i{
+.menu i {
   display: none;
 }
 .big-logo {
@@ -285,7 +286,7 @@ h1{
   padding: 40px;
   border-radius: 20px;
 }
-.email-p-2{
+.email-p-2 {
   display: none;
 }
 .main button {
@@ -378,7 +379,7 @@ h1{
   display: flex;
   flex-direction: column;
 }
-.qna-3{
+.qna-3 {
   display: none;
 }
 .report {
@@ -413,7 +414,7 @@ h1{
   color: #fff;
 }
 .report-1 {
-  width:  calc( 100% / 2 );
+  width: calc(100% / 2);
   height: 230px;
   background-color: #f9f9f9;
   padding: 50px;

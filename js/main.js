@@ -14,16 +14,16 @@ $(document).ready(function () {
       rows: 2,
       fill: "row",
     },
-    breakpoints:{
+    breakpoints: {
       768: {
         slidesPerView: 5,
-        spaceBetween: 10
+        spaceBetween: 10,
       },
-      1400:{
+      1400: {
         slidesPerView: 6,
-        spaceBetween: 10
-      }
-    }
+        spaceBetween: 10,
+      },
+    },
   });
 });
 $(document).ready(function () {
@@ -40,15 +40,15 @@ $(document).ready(function () {
       rows: 2,
       fill: "row",
     },
-    breakpoints:{
+    breakpoints: {
       768: {
         slidesPerView: 5,
-        spaceBetween: 10
+        spaceBetween: 10,
       },
-      1400:{
+      1400: {
         slidesPerView: 6,
-        spaceBetween: 10
-      }
-    }
+        spaceBetween: 10,
+      },
+    },
   });
 });
