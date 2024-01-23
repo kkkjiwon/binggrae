@@ -10,19 +10,35 @@ $(document).ready(function () {
       nextEl: ".taste .next",
       prevEl: ".taste .prev",
     },
-    // grid: {
-    //   rows: 2,
-    //   fill: "row",
-    // },
     breakpoints: {
+      // 1: {
+      //   slidesPerView: 2,
+      //   spaceBetween: 5,
+      // }
+      320: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        grid: {
+            rows: 3,
+            fill: "row",
+          },
+      },
       768: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        // grid: {
+        //     rows: 2,
+        //     fill: "row",
+        //   },
+      },
+      1200: {
         slidesPerView: 5,
         spaceBetween: 10,
       },
-      // 1400: {
-      //   slidesPerView: 6,
-      //   spaceBetween: 10,
-      // },
+      1400: {
+        slidesPerView: 6,
+        spaceBetween: 10,
+      },
     },
   });
 });
@@ -36,19 +52,31 @@ $(document).ready(function () {
       nextEl: ".brandshop .next",
       prevEl: ".brandshop .prev",
     },
-    // grid: {
-    //   rows: 2,
-    //   fill: "row",
-    // },
     breakpoints: {
+      320: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        grid: {
+            rows: 3,
+            fill: "row",
+          },
+      },
       768: {
         slidesPerView: 4,
         spaceBetween: 10,
+        // grid: {
+        //     rows: 2,
+        //     fill: "row",
+        //   },
       },
-      // 1400: {
-      //   slidesPerView: 6,
-      //   spaceBetween: 10,
-      // },
+      1200: {
+        slidesPerView: 5,
+        spaceBetween: 10,
+      },
+      1400: {
+        slidesPerView: 6,
+        spaceBetween: 10,
+      },
     },
   });
 });

@@ -40,13 +40,13 @@ h1 {
 }
 .header-inner {
   width: 100%;
-  height: 120px;
+  max-height: 120px;
   padding: 45px;
   display: flex;
   justify-content: space-between;
 }
 .logo {
-  display: flex;
+  /* display: flex; */
 }
 .menu ul {
   list-style: none;
@@ -61,19 +61,31 @@ h1 {
 .menu i {
   display: none;
 }
+.menu .fas {
+  font-size: 30px;
+  color: #222;
+}
 .big-logo {
   background-size: cover;
   width: 80%;
-  height: 422px;
+  /* max-width: 1000px; */
+  height: auto;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
-.main {
+.big-logo img {
   width: 100%;
 }
+.main {
+  width: 80%;
+  margin: auto;
+  /* background-color: blueviolet; */
+  padding: 20px 30px;
+}
 .search_bar {
-  width: 1020px;
+  width: 80%;
+  max-width: 1020px;
   height: 80px;
   margin: 50px auto;
   border: 1px solid #ccc;
@@ -86,7 +98,7 @@ h1 {
   align-items: center;
 }
 .search_bar input {
-  width: 85%;
+  width: 80%;
   border: 0;
   outline: none;
   font-size: 16px;
@@ -97,7 +109,7 @@ h1 {
   color: #fff;
   font-size: 17px;
   font-weight: 700;
-  width: 200px;
+  width: 20%;
   height: 60px;
   border: 0;
   border-radius: 100px;
@@ -110,107 +122,73 @@ h1 {
 }
 .taste {
   width: 100%;
-  margin-top: 200px;
+  background-color: bisque;
+  position: relative;
+  margin-top: 100px;
 }
 .taste-box {
-  position: relative;
-  width: 1450px;
-  height: 300px;
-  /* margin-top: 100px; */
-  margin: 0 auto;
-  /* background-color: yellowgreen; */
+  width: 95%;
+  margin: auto;
 }
-.tasteSwiper {
-  width: 1300px;
-  /* width: 1200px; */
-  /* padding: 0 10px; */
-  display: flex;
-
-  /* background-color: yellowgreen; */
-  /* justify-content: start; */
+.swiper-slide {
+  width: 100%;
 }
-.tasteSwiper .swiper-slide {
-  /* margin: 10px; */
-  width: calc(100% / 6);
-  /* max-width: 90%; */
+.swiper-slide img {
+  width: 100%;
 }
-.tasteSwiper .swiper-slide img {
-  width: 200px;
-}
-.tasteSwiper .swiper-slide p {
+.swiper-slide p {
+  width: 100%;
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 400;
-  width: 200px;
-  height: 30px;
-  line-height: 30px;
   background-color: rgb(247, 247, 247);
   border: 0;
   border-radius: 20px;
   text-align: center;
   margin-top: 10px;
+  line-height: 30px;
 }
 .taste .prev {
   position: absolute;
-  top: 35%;
-  left: 40px;
-  width: 40px;
-  height: 40px;
+  top: 55%;
+  left: 0px;
   z-index: 9999;
   font-size: 25px;
   color: #555;
 }
 .taste .next {
   position: absolute;
-  top: 35%;
-  right: 15px;
-  width: 40px;
-  height: 40px;
+  top: 55%;
+  right: 0px;
   z-index: 9999;
   font-size: 25px;
   color: #555;
 }
 .brandshop {
   width: 100%;
-  margin-top: 200px;
+  background-color: bisque;
+  position: relative;
+  margin-top: 150px;
 }
 .brandshop-box {
-  position: relative;
-  width: 1450px;
-  height: 250px;
-  margin-top: 100px;
-  margin: 0 auto;
-  /* background-color: violet; */
+  width: 95%;
+  margin: auto;
 }
-.brandSwiper {
-  width: 1300px;
-  display: flex;
-  /* justify-content: center;
-  margin: 0 auto; */
-}
-.brandSwiper .swiper-slide {
-  width: calc(100% / 6);
-}
-.brandSwiper .swiper-slide img {
-  width: 200px;
+.brandshop-box img {
   border: 1px solid #eeeeee;
   border-radius: 20px;
 }
 .brandshop .prev {
   position: absolute;
-  top: 35%;
-  left: 40px;
-  width: 40px;
-  height: 40px;
+  top: 60%;
+  left: 0px;
   z-index: 9999;
   font-size: 25px;
   color: #555;
 }
 .brandshop .next {
   position: absolute;
-  top: 35%;
-  right: 20px;
-  width: 40px;
-  height: 40px;
+  top: 60%;
+  right: 0px;
   z-index: 9999;
   font-size: 25px;
   color: #555;
@@ -221,7 +199,8 @@ h1 {
 }
 .cs-inner {
   /* background-color: antiquewhite; */
-  width: 65%;
+  width: 100%;
+  max-width: 1200px;
   height: 800px;
   margin: 0 auto;
   border: 1px solid #ccc;
@@ -263,7 +242,7 @@ h1 {
 }
 .main button {
   font-family: "Noto Sans KR", sans-serif;
-  width: 160px;
+  max-width: 160px;
   height: 40px;
   border-radius: 50px;
   border: 0;
@@ -288,6 +267,7 @@ h1 {
   color: #303030;
   font-size: 35px;
   margin: 10px 0;
+  letter-spacing: -1.9px;
 }
 .call p {
   margin-top: 20px;
