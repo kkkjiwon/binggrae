@@ -4,11 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- 파비콘 -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
     <link rel="manifest" href="images/favicon/site.webmanifest" />
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <link
+      rel="mask-icon"
+      href="images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
     <title>빙그레</title>
@@ -41,7 +59,7 @@
           </div>
           <!-- 상단메뉴 -->
           <nav class="menu">
-            <ul>
+            <ul class="menu-main">
               <li><a href="#">회사소개</a></li>
               <li><a href="#">제품소개</a></li>
               <li><a href="#">지속가능경영</a></li>
@@ -50,8 +68,25 @@
               <li><a href="#">고객센터</a></li>
             </ul>
             <i class="fas fa-bars"></i>
+            <ul class="menu-sub">
+              <li><a href="#">회사소개</a></li>
+              <li><a href="#">제품소개</a></li>
+              <li><a href="#">지속가능경영</a></li>
+              <li><a href="#">투자정보</a></li>
+              <li><a href="#">뉴스룸</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
           </nav>
         </div>
+        <script>
+          const toggleBtn = document.querySelector(".fas");
+          const menu = document.querySelector(".menu-sub");
+
+          // 반응형 웹 햄버거 메뉴 클릭 시 메뉴 펼침, 숨김 처리
+          toggleBtn.addEventListener("click", () => {
+            menu.classList.toggle("active");
+          });
+        </script>
         <!-- 중간로고 -->
         <div class="big-logo">
           <img src="images/m_sec01_logo_3.png" alt="빙그레 로고" />

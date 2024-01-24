@@ -1,23 +1,29 @@
 @charset "utf-8";
 @media all and (max-width: 1200px) {
-  .menu ul {
+  .menu {
+    width: 30px;
+  }
+  .menu-main li {
     display: none;
   }
-  .menu i {
+  .fas {
     display: block;
     font-size: 30px;
     margin-right: 30px;
   }
-  .taste .prev{
+  .menu-sub.active{
+    display: block;
+  }
+  .taste .prev {
     font-size: 20px;
   }
-  .taste .next{
+  .taste .next {
     font-size: 20px;
   }
-  .brandshop .prev{
+  .brandshop .prev {
     font-size: 20px;
   }
-  .brandshop .next{
+  .brandshop .next {
     font-size: 20px;
   }
 }
@@ -29,7 +35,7 @@
   h1 {
     font-size: 30px;
   }
-  .menu{
+  .menu {
     width: 30px;
   }
   .big-logo {
@@ -51,7 +57,7 @@
     margin-top: 15px;
     /* margin: 5px 10px 2px 10px; */
   }
-  .search_bar{
+  .search_bar {
     height: 52px;
   }
   .search_bar input {
@@ -64,7 +70,7 @@
     width: 150px;
     height: 42px;
   }
-  .swiper-slide p{
+  .swiper-slide p {
     font-size: 14px;
     line-height: 25px;
   }
@@ -208,31 +214,31 @@
     justify-content: center;
   }
 }
-@media all and (max-width: 320px){
-  header{
+@media all and (max-width: 320px) {
+  header {
     max-height: 300px;
   }
-  .header-inner{
+  .header-inner {
     padding: 20px;
   }
-  .logo a img{
+  .logo a img {
     width: 60%;
-  } 
-  .menu{
+  }
+  .menu {
     width: 20px;
   }
-  .menu .fas{
+  .fas {
     font-size: 20px;
   }
-  .search_bar{
+  .search_bar {
     min-width: 280px;
     height: 38px;
     margin-top: 70px;
   }
-  .search_bar input{
+  .search_bar input {
     font-size: 12px;
   }
-  .search_bar button{
+  .search_bar button {
     max-height: 30px;
     font-size: 12px;
     font-weight: 500;
@@ -243,28 +249,28 @@
     margin: 0 10px;
     margin-top: 6px;
   }
-  .main{
+  .main {
     width: 100%;
   }
-  h1{
+  h1 {
     font-size: 25px;
   }
-  .swiper-slide p{
+  .swiper-slide p {
     margin-top: 2px;
     font-size: 12px;
     line-height: 18px;
   }
-  .taste{
+  .taste {
     padding-bottom: 50px;
-    border-bottom: 5px solid rgba(0,0,0,0.05);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.05);
   }
   .cs-inner {
     padding: 10px;
   }
-  .cs-wrap{
+  .cs-wrap {
     margin-top: 20px;
   }
-  .cs-wrap h2{
+  .cs-wrap h2 {
     font-size: 18px;
     margin-left: 20px;
     margin-top: 20px;
@@ -274,33 +280,33 @@
     font-weight: 400;
     margin: 10px 20px;
   }
-  .call h3{
+  .call h3 {
     font-size: 18px;
     margin-left: 20px;
   }
-  .qna-head{
-    align-items: center
+  .qna-head {
+    align-items: center;
   }
-  .qna-wrap button{
+  .qna-wrap button {
     width: 120px;
     font-size: 12px;
     height: 25px;
     line-height: 25px;
   }
-  .report-wrap p{
+  .report-wrap p {
     font-size: 16px;
   }
-  .report-1{
+  .report-1 {
     padding: 30px;
-    justify-content: space-around
+    justify-content: space-around;
   }
-  .report-1 p:nth-child(1){
+  .report-1 p:nth-child(1) {
     display: none;
   }
-  .report-1 p:nth-child(2){
+  .report-1 p:nth-child(2) {
     display: block;
   }
-  .report-wrap button{
+  .report-wrap button {
     font-size: 12px;
   }
 }
