@@ -211,6 +211,9 @@
   }
   .logo a img{
     width: 60%;
+  } 
+  .menu{
+    width: 20px;
   }
   .menu .fas{
     font-size: 20px;
