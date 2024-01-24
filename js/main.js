@@ -11,10 +11,6 @@ $(document).ready(function () {
       prevEl: ".taste .prev",
     },
     breakpoints: {
-      // 1: {
-      //   slidesPerView: 2,
-      //   spaceBetween: 5,
-      // }
       320: {
         slidesPerView: 3,
         spaceBetween: 10,

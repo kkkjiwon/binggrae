@@ -83,6 +83,15 @@ h1 {
   /* background-color: blueviolet; */
   padding: 20px 30px;
 }
+.main button {
+  font-family: "Noto Sans KR", sans-serif;
+  width: 160px;
+  height: 40px;
+  border-radius: 50px;
+  border: 0;
+  font-size: 14px;
+  line-height: 40px;
+}
 .search_bar {
   width: 80%;
   max-width: 1020px;
@@ -122,7 +131,7 @@ h1 {
 }
 .taste {
   width: 100%;
-  background-color: bisque;
+  /* background-color: bisque; */
   position: relative;
   margin-top: 100px;
 }
@@ -165,7 +174,7 @@ h1 {
 }
 .brandshop {
   width: 100%;
-  background-color: bisque;
+  /* background-color: bisque; */
   position: relative;
   margin-top: 150px;
 }
@@ -240,15 +249,6 @@ h1 {
 .email-p-2 {
   display: none;
 }
-.main button {
-  font-family: "Noto Sans KR", sans-serif;
-  max-width: 160px;
-  height: 40px;
-  border-radius: 50px;
-  border: 0;
-  font-size: 14px;
-  line-height: 40px;
-}
 .email button {
   background-color: rgb(211, 21, 21);
   color: #fff;
@@ -308,18 +308,23 @@ h1 {
   width: calc(100% / 2 - 10px);
 }
 .qna-wrap ul li {
-  width: 100%;
-  height: 80px;
-  background-color: #f9f9f9;
-  color: #1f1f1f;
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 16px;
-  border-radius: 30px;
-  box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
-  margin: 10px 0;
-  padding: 30px;
-  display: flex;
-  align-items: center;
+width: 100%;
+/* max-width: 600px; */
+height: 80px;
+
+background-color: #f9f9f9;
+color: #1f1f1f;
+font-family: "Noto Sans KR", sans-serif;
+font-size: 16px;
+border-radius: 30px;
+box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+margin: 10px 0;
+padding: 28px;
+display: block;
+align-items: center;
+text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .qna-1 {
   width: 50%;
@@ -338,15 +343,6 @@ h1 {
   width: 100%;
   margin-top: 180px;
 }
-/* .report h1 {
-  text-align: center;
-  font-family: "Binggrae-Two";
-  font-size: 40px;
-  margin: 20px auto;
-  color: #1f1f1f;
-  line-height: 1.45;
-  letter-spacing: -1.9px;
-} */
 .report-wrap {
   width: 100%;
   max-width: 1200px;
@@ -360,6 +356,9 @@ h1 {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+}
+.report-1 p:nth-child(2){
+  display: none;
 }
 .report-wrap button {
   background-color: rgb(211, 21, 21);

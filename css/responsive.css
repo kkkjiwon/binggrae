@@ -147,7 +147,7 @@
     border-radius: 15px;
     font-size: 14px;
     margin: 10px 0;
-    padding: 10px 30px;
+    padding: 15px 30px;
   }
   .qna-1 {
     display: none;
@@ -165,7 +165,7 @@
     align-items: center;
   }
   .report-wrap p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .report-1 {
     width: 100%;
@@ -273,5 +273,21 @@
     font-size: 12px;
     height: 25px;
     line-height: 25px;
+  }
+  .report-wrap p{
+    font-size: 16px;
+  }
+  .report-1{
+    padding: 30px;
+    justify-content: space-around
+  }
+  .report-1 p:nth-child(1){
+    display: none;
+  }
+  .report-1 p:nth-child(2){
+    display: block;
+  }
+  .report-wrap button{
+    font-size: 12px;
   }
 }
