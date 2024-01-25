@@ -49,12 +49,14 @@ h1 {
 .logo {
   display: flex;
 }
-
+/* .menu{
+  position: relative;
+} */
 .menu-main {
   list-style: none;
   display: flex;
 }
-.menu-main li{
+.menu-main li {
   display: flex;
   flex-direction: row;
   padding: 0 30px;
@@ -62,41 +64,49 @@ h1 {
   font-weight: 500;
   font-family: "Noto Sans KR", sans-serif;
 }
-.fas {
+.open {
   display: none;
   font-size: 30px;
   color: #222;
 }
-.menu-sub{
+.menu-sub {
   display: none;
-  background-color: #fff;
+  background-color: #a30000;
   width: 300px;
-  height: 700px;
-  border: 5px solid rgb(187, 0, 0);
-  border-radius: 20px;
+  height: 1000px;
+  /* border: 5px solid rgb(194, 0, 0);
+  border-radius: 5px; */
   position: absolute;
-  top: 65%;
-  right: 4%;
-  padding: 15px 40px;
+  top: 0;
+  right: 0;
+  padding: 140px 60px;
+  z-index: 99999;
 }
-.menu-sub li{
+.menu-sub li {
   display: flex;
   align-items: center;
   border-bottom: 3px solid rgba(0, 0, 0, 0.05);
 }
-.menu-sub li:last-child{
-  border-bottom: 0
+.menu-sub li:last-child {
+  border-bottom: 0;
 }
-.menu-sub li a{
+.menu-sub li a {
   width: 100%;
   font-family: "Noto Sans KR", sans-serif;
-  color: #111;
-  font-size: 20px;
-  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
   text-align: center;
-  margin: 40px;
-  
-
+  margin: 35px;
+}
+.close {
+  display: block;
+  fill: #6b0000;
+  position: absolute;
+  top: 45px;
+  right: 45px;
+  width: 35px;
+  height: 30px;
 }
 .big-logo {
   background-size: cover;
@@ -192,7 +202,7 @@ h1 {
 .taste .prev {
   position: absolute;
   top: 55%;
-  left: 0px;
+  left: -10px;
   z-index: 9999;
   font-size: 25px;
   color: #555;
@@ -200,7 +210,7 @@ h1 {
 .taste .next {
   position: absolute;
   top: 55%;
-  right: 0px;
+  right: -15px;
   z-index: 9999;
   font-size: 25px;
   color: #555;
@@ -209,7 +219,7 @@ h1 {
   width: 100%;
   /* background-color: bisque; */
   position: relative;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 .brandshop-box {
   width: 95%;
@@ -222,7 +232,7 @@ h1 {
 .brandshop .prev {
   position: absolute;
   top: 60%;
-  left: 0px;
+  left: -10px;
   z-index: 9999;
   font-size: 25px;
   color: #555;
@@ -230,14 +240,14 @@ h1 {
 .brandshop .next {
   position: absolute;
   top: 60%;
-  right: 0px;
+  right: -15px;
   z-index: 9999;
   font-size: 25px;
   color: #555;
 }
 .cs {
   width: 100%;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 .cs-inner {
   /* background-color: antiquewhite; */
@@ -341,21 +351,21 @@ h1 {
   width: calc(100% / 2 - 10px);
 }
 .qna-wrap ul li {
-width: 100%;
-/* max-width: 600px; */
-height: 80px;
+  width: 100%;
+  /* max-width: 600px; */
+  height: 80px;
 
-background-color: #f9f9f9;
-color: #1f1f1f;
-font-family: "Noto Sans KR", sans-serif;
-font-size: 16px;
-border-radius: 30px;
-box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
-margin: 10px 0;
-padding: 28px;
-display: block;
-align-items: center;
-text-overflow: ellipsis;
+  background-color: #f9f9f9;
+  color: #1f1f1f;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  border-radius: 30px;
+  box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+  margin: 10px 0;
+  padding: 28px;
+  display: block;
+  align-items: center;
+  text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -374,7 +384,7 @@ text-overflow: ellipsis;
 }
 .report {
   width: 100%;
-  margin-top: 180px;
+  margin-top: 120px;
 }
 .report-wrap {
   width: 100%;
@@ -390,7 +400,7 @@ text-overflow: ellipsis;
   font-weight: 400;
   text-align: center;
 }
-.report-1 p:nth-child(2){
+.report-1 p:nth-child(2) {
   display: none;
 }
 .report-wrap button {
