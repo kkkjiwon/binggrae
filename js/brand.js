@@ -20,10 +20,6 @@ var brandSwiper = new Swiper(".brandSwiper", {
       768: {
         slidesPerView: 4,
         spaceBetween: 10,
-        // grid: {
-        //     rows: 2,
-        //     fill: "row",
-        //   },
       },
       1200: {
         slidesPerView: 5,
