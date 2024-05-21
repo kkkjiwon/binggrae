@@ -2,50 +2,33 @@
 <html lang="ko">
   <head>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KBH8JSWG');</script>
-  <!-- End Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KBH8JSWG");
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- 파비콘 -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon/favicon-16x16.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
     <link rel="manifest" href="images/favicon/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="images/favicon/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
     <title>빙그레</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <!-- 스와이퍼 적용 -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <!-- JS 적용 -->
@@ -55,37 +38,27 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/modal.js"></script>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5N59H3V05Q"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5N59H3V05Q');
-</script>
+    <script src="js/brand.js"></script>
+    <script src="js/taste.js"></script>
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBH8JSWG"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- 모달창 -->
-  <div class="modal-wrap">
-    <div class="modal-main">
-      <span class="modal-logo"></span>
-      <p class="modal-nonotic">
-        해당 사이트는 <strong>스터디용</strong>으로 제작되었으며,<br />
-        리소스는 <strong>원저작자</strong>에게 있음을 알려드립니다.<br />
-        문제사항이 있을 시 연락주시면 빠른 시일 내 조치하겠습니다.<br />
-        <span>본 사이트는 Chrome 에 최적화되어 있습니다.</span>
-      </p>
-      <div class="modal-close">
-        확인했습니다.
-        <i>( Click 하여 닫기 )</i>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- 모달창 -->
+    <div class="modal-wrap">
+      <div class="modal-main">
+        <span class="modal-logo"></span>
+        <p class="modal-nonotic">
+          해당 사이트는 <strong>스터디용</strong>으로 제작되었으며,<br />
+          리소스는 <strong>원저작자</strong>에게 있음을 알려드립니다.<br />
+          문제사항이 있을 시 연락주시면 빠른 시일 내 조치하겠습니다.<br />
+          <span>본 사이트는 Chrome 에 최적화되어 있습니다.</span>
+        </p>
+        <div class="modal-close">
+          확인했습니다.
+          <i>( Click 하여 닫기 )</i>
+        </div>
       </div>
     </div>
-  </div>
     <div class="wrap">
       <!-- 헤더 -->
       <header>
@@ -106,7 +79,11 @@
             </ul>
             <i class="fas fa-bars open"></i>
             <ul class="menu-sub">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="close"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg><li><a href="#">회사소개</a></li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="close">
+                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z" />
+              </svg>
+              <li><a href="#">회사소개</a></li>
               <li><a href="#">제품소개</a></li>
               <li><a href="#">지속가능경영</a></li>
               <li><a href="#">투자정보</a></li>
@@ -130,17 +107,9 @@
         <!-- 검색 -->
         <div class="search_bar">
           <label for="search"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="fa-magnifying-glass"
-              height="16"
-              width="16"
-              viewBox="0 0 512 512"
-            >
+            ><svg xmlns="http://www.w3.org/2000/svg" class="fa-magnifying-glass" height="16" width="16" viewBox="0 0 512 512">
               <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path
-                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
-              /></svg
+              <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" /></svg
           ></label>
           <input type="text" placeholder="제품명를 입력해주세요" id="search" />
           <button type="submit">SEARCH</button>
@@ -242,13 +211,8 @@
             <div class="cs-wrap">
               <ul class="email">
                 <h2>이메일 상담</h2>
-                <p class="email-p-1">
-                  빙그레에 궁금한 사항을 문의해 주세요.<br />최대한 빠른
-                  시일내에<br />친절하게 답변해드리겠습니다.
-                </p>
-                <p class="email-p-2">
-                  빙그레에 궁금한 사항을<br />문의해 주세요.
-                </p>
+                <p class="email-p-1">빙그레에 궁금한 사항을 문의해 주세요.<br />최대한 빠른 시일내에<br />친절하게 답변해드리겠습니다.</p>
+                <p class="email-p-2">빙그레에 궁금한 사항을<br />문의해 주세요.</p>
                 <button>상담하기</button>
               </ul>
               <ul class="call">
@@ -260,22 +224,14 @@
 
             <div class="qna-wrap">
               <div class="qna-head">
-                <h2>
-                  자주 묻는 질문에 내용이 없을 경우, 이메일 및 전화 상담
-                  바랍니다.
-                </h2>
+                <h2>자주 묻는 질문에 내용이 없을 경우, 이메일 및 전화 상담 바랍니다.</h2>
                 <button>더보기</button>
               </div>
               <div class="qna-box">
                 <ul class="qna-1">
                   <li>Q. 아이스크림에는 유통기한이 없나요?</li>
-                  <li>
-                    Q. 아이스크림, 음료 등 제품 공급(납품) 관련 문의드리고
-                    싶어요.
-                  </li>
-                  <li>
-                    Q. 빙그레 제품을 구입할 수 있는 온라인 몰이 따로 있나요?
-                  </li>
+                  <li>Q. 아이스크림, 음료 등 제품 공급(납품) 관련 문의드리고 싶어요.</li>
+                  <li>Q. 빙그레 제품을 구입할 수 있는 온라인 몰이 따로 있나요?</li>
                 </ul>
                 <ul class="qna-2">
                   <li>Q. 제품 유통기한 뒤에 있는 알파벳 기호는 무엇인가요?</li>
@@ -283,13 +239,8 @@
                 </ul>
                 <ul class="qna-3">
                   <li>Q. 아이스크림에는 유통기한이 없나요?</li>
-                  <li>
-                    Q. 아이스크림, 음료 등 제품 공급(납품) 관련 문의드리고
-                    싶어요.
-                  </li>
-                  <li>
-                    Q. 빙그레 제품을 구입할 수 있는 온라인 몰이 따로 있나요?
-                  </li>
+                  <li>Q. 아이스크림, 음료 등 제품 공급(납품) 관련 문의드리고 싶어요.</li>
+                  <li>Q. 빙그레 제품을 구입할 수 있는 온라인 몰이 따로 있나요?</li>
                   <li>Q. 제품 유통기한 뒤에 있는 알파벳 기호는 무엇인가요?</li>
                   <li>Q. 요플레 분리배출(라벨제거) 방법 알려주세요.</li>
                 </ul>
@@ -302,24 +253,13 @@
           <h1>빙그레 임직원 및 종사자 온라인 제보</h1>
           <div class="report-wrap">
             <div class="report-1">
-              <p>
-                빙그레 임직원의 부당한 요구 또는 <br />업무처리, 인권고충, 기타
-                부정행위 제보
-              </p>
-              <p>
-                빙그레 임직원의 부당한 요구 또는 업무처리, 인권고충, <br />기타
-                부정행위 제보
-              </p>
+              <p>빙그레 임직원의 부당한 요구 또는 <br />업무처리, 인권고충, 기타 부정행위 제보</p>
+              <p>빙그레 임직원의 부당한 요구 또는 업무처리, 인권고충, <br />기타 부정행위 제보</p>
               <button>사이버 신고센터</button>
             </div>
             <div class="report-1">
-              <p>
-                빙그레 종사자의 유해·위험요소 및 <br />안전보건에 관한 의견 제보
-              </p>
-              <p>
-                빙그레 종사자의 <br />유해·위험요소 및 <br />안전보건에 관한
-                의견 제보
-              </p>
+              <p>빙그레 종사자의 유해·위험요소 및 <br />안전보건에 관한 의견 제보</p>
+              <p>빙그레 종사자의 <br />유해·위험요소 및 <br />안전보건에 관한 의견 제보</p>
               <button>안전신문고</button>
             </div>
           </div>
@@ -336,10 +276,7 @@
         </div>
         <div class="ft-md">
           <p>회사명 : 빙그레</p>
-          <p>
-            경기도 남양주시 다산동 4344-3 / 경기도 남양주시 다산순환로
-            45(다산동)
-          </p>
+          <p>경기도 남양주시 다산동 4344-3 / 경기도 남양주시 다산순환로 45(다산동)</p>
         </div>
         <div class="ft-bt">
           <ul class="ft-icon">
@@ -349,14 +286,10 @@
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/binggraekorea/"
-                ><i class="fab fa-instagram"></i
-              ></a>
+              <a href="https://www.instagram.com/binggraekorea/"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-              <a href="https://www.youtube.com/channel/UCOmz8eDBQ04h6i0_8p_V7eg"
-                ><i class="fab fa-youtube"></i
-              ></a>
+              <a href="https://www.youtube.com/channel/UCOmz8eDBQ04h6i0_8p_V7eg"><i class="fab fa-youtube"></i></a>
             </li>
             <li>
               <a href="https://www.tftmall.co.kr/main/index.php">
